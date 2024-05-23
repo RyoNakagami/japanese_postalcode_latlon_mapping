@@ -1,0 +1,6 @@
+yahoo_postalcode_api:
+  app_name: <管理しやすいように任意のapp-name>
+  api_url: "https://map.yahooapis.jp/search/zip/V1/zipCodeSearch"
+  client_id: <ここに取得したClient-IDを入力してください>
+  username: <管理しやすいように任意のusername>
+  creat_at: "2024-05-22"
