@@ -1,0 +1,67 @@
+{
+    "data": "KEN_ALL.csv",
+    "encoding": "shift-jis",
+    "created_at": "2024-05-24",
+    "properties": {
+        "jis_governmentcode": {
+            "type": "str",
+            "description": "全国地方公共団体コード（JIS X0401、X0402）"
+        },
+        "postalcode_old": {
+            "type": "str",
+            "description": "（旧）郵便番号（5桁）"
+        },
+        "postalcode": {
+            "type": "str",
+            "description": "郵便番号（7桁）"
+        },
+        "prefecture_kana": {
+            "type": "str",
+            "description": "都道府県（カナ）"
+        },
+        "cityname_kana": {
+            "type": "str",
+            "description": "市区町村名（カナ）"
+        },
+        "areaname_kana": {
+            "type": "str",
+            "description": "町域名（カナ）"
+        },
+        "prefecture": {
+            "type": "str",
+            "description": "都道府県"
+        },
+        "cityname": {
+            "type": "str",
+            "description": "市区町村名"
+        },
+        "areaname": {
+            "type": "str",
+            "description": "町域名"
+        },
+        "is_n_postalcode_one_areaname": {
+            "type": "int",
+            "description": "一町域が二以上の郵便番号で表される場合の表示（「1」は該当、「0」は該当せず）"
+        },
+        "is_koaza_based_address": {
+            "type": "int",
+            "description": "小字毎に番地が起番されている町域の表示（「1」は該当、「0」は該当せず）"
+        },
+        "is_streetnumber": {
+            "type": "int",
+            "description": "丁目を有する町域の場合の表示（「1」は該当、「0」は該当せず）"
+        },
+        "is_one_postalcode_n_areaname": {
+            "type": "int",
+            "description": "一つの郵便番号で二以上の町域を表す場合の表示（「1」は該当、「0」は該当せず）"
+        },
+        "is_modified": {
+            "type": "int",
+            "description": "更新の表示（「0」は変更なし、「1」は変更あり、「2」廃止（廃止データのみ使用））"
+        },
+        "modification_category": {
+            "type": "int",
+            "description": "変更理由（「0」は変更なし、「1」市政・区政・町政・分区・政令指定都市施行、「2」住居表示の実施、「3」区画整理、「4」郵便区調整等、「5」訂正、「6」廃止（廃止データのみ使用））"
+        }
+    }
+}

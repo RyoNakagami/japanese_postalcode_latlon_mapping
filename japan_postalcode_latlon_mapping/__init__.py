@@ -1,0 +1,1 @@
+from .JapanPostcodeMapping import *

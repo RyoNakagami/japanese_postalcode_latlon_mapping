@@ -44,3 +44,8 @@ bfg_check_list/
 # IPython
 profile_default/
 ipython_config.py
+
+# Repository Sepecific
+config/yahoo_api.yaml
+data/output/*
+!data/output/output_sample.csv
